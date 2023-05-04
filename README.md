@@ -7,7 +7,7 @@ Once you have Java installed, you can follow these steps to install and run the 
 
 Clone the repository to your local machine using the following command:
 
-bash Copy code git clone                                           Navigate to the project directory using the command line.
+bash Copy code git clone https://github.com/sivakalyankaricheti/puzzle.git Navigate to the project directory using the command line.
 
 Compile the Java source code using the following command:
 
