@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:ital,wght@1,600&family=DynaPuff&display=swap');
+
+
+body {
+	text-align: center;
+	background-color: #f2f2f2;
+	font-family: 'Chivo Mono', monospace;
+	font-family: 'DynaPuff', cursive;
+}
+
+#seconds {
+        font-size:3em;
+        color: white;
+    }
+    #minutes {
+        font-size: 3em;
+        color:white;
+    }
+    #colon {
+        font-size: 3em;
+        color: white;
+    }
+#board {
+    width: 450px;
+    height: 450px;
+    background-color: lightblue;
+    border: 10px solid #0c67ae;
+
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#board img {
+    width: 148px;
+    height: 148px;
+    border: 1px solid #0c67ae;
+}
+
+input[type="text"], input[type="password"] {
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	width: 40%;
+}
+
+board:hover {
+        background-color: #2E8B57;
+        box-shadow: 4px 4px 8px #888;
+}
+board:focus {
+        outline: none;
+}
+
+board img:hover {
+        background-color: #2E8B57;
+        box-shadow: 4px 4px 8px #888;
+}
+board img:focus {
+        outline: none;
+}
+
+button {  
+        font-size: 24px;
+        color: 000000;
+        background-color: white;
+        border: none;
+        border-radius: 5px;
+        box-shadow: 2px 2px 5px #888;
+        padding: 20px 40px;
+        transition: all 0.3s ease;
+        cursor: pointer;
+}
+button:hover {
+        background-color: #2E8B57;
+        box-shadow: 4px 4px 8px #888;
+}
+
+button:focus {
+        outline: none;
+}
